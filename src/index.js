@@ -1,4 +1,4 @@
-const { MONGO_DB, MONGO_USER, MONGO_PASS } = require('../.env');
+const { MONGO_DB, MONGO_USER, MONGO_PASS, PORT } = require('../.env');
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
