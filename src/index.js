@@ -1,4 +1,5 @@
-const { MONGO_DB, MONGO_USER, MONGO_PASS, PORT } = require('../.env');
+require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -6,7 +7,6 @@ const http = require('http');
 const routes = require('./routes');
 const { setupWebsocket } = require('./websocket');
 
-// mongoose.set('useNewUrlParser', true);
 // mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 
@@ -15,7 +15,7 @@ const server = http.Server(app);
 
 setupWebsocket(server);
 
-mongoose.connect(`mongodb+srv://${MONGO_USER}:${MONGO_PASS}@cluster0-c8lyf.mongodb.net/${MONGO_DB}?retryWrites=true&w=majority`, {
+mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true 
 })
@@ -25,4 +25,4 @@ app.use(express.json());
 app.use(routes);
 
 
-server.listen(PORT || 3333);
+server.listen(process.env.PORT || 3333);
