@@ -16,7 +16,7 @@ ___
   <a href="#interrobang-motivo">Motivo</a>&nbsp;|&nbsp;
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;|&nbsp;
   <a href="#link-como-contribuir">Como Contribuir</a>&nbsp;|&nbsp;
-  <a href="#link-como-utlizar">Como Utilizar</a>&nbsp;|&nbsp;
+  <a href="#question-como-utlizar">Como Utilizar</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>
 </h3>
 
@@ -52,7 +52,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - 'Push' a sua branch
 - Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
 
-## :link: Como Utilizar 
+## :question: Como Utilizar 
 Rotas: 
  - GET `/devs`
     1. Essa rota irá retornar um **array** com todos os devs cadastrados na aplicação
