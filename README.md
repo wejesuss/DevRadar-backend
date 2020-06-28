@@ -16,7 +16,7 @@ ___
   <a href="#interrobang-motivo">Motivo</a>&nbsp;|&nbsp;
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;|&nbsp;
   <a href="#link-como-contribuir">Como Contribuir</a>&nbsp;|&nbsp;
-  <a href="#question-como-utlizar">Como Utilizar</a>&nbsp;|&nbsp;
+  <a href="#question-como-utilizar">Como Utilizar</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>
 </h3>
 
